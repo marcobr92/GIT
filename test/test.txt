@@ -1,0 +1,10 @@
+def fib_up_to(n):
+    a, b = 0, 1
+    while a <= n:
+        print(a)
+        a, b = b, a + b
+
+
+if __name__ == "__main__":
+    # Imprime os termos de Fibonacci menores ou iguais a 50
+    fib_up_to(50)
